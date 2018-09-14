@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gallery</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="gallery.css"> <!-- Your own stylesheet needs to be written after bootstrap in order to override it. -->
+	
+</head>
+<body>
+
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-nav-demo" aria-expanded="false"> <!-- Adding the hamburger button ps.: code taken from bootstrap website  -->
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span><link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+		       </button> 
+			
+				<div class="nav navbar-header"> <!-- Adding the main name on the right of the navbar -->
+				<a href="#" class="navbar-brand"><span class="glyphicon glyphicon-picture" aria-hidden="true"></span> W1LD</a>
+				</div>
+
+				<div class="collapse navbar-collapse" id="bs-nav-demo">
+					<ul class="nav navbar-nav"> <!-- A Div can be used instead of ul, but ul is more convencional -->
+						<li><a href="#">About</a></li>
+						<li><a href="#">Contact</a></li>	
+					</ul>
+					<ul class="nav navbar-nav navbar-right"> <!-- Adding content to the right side of the navbar -->
+						<li><a href="#">Sign Up!</a></li>
+						<li><a href="#">Login</a></li>	
+					</ul>
+				</div>
+			</div>
+		</nav>
+  
+
+	<div class="container">
+		<div class="jumbotron">
+			<h1><i class="fa fa-camera-retro" aria-hidden="true"></i> W1LD Image Gallery</h1>
+			<p>Beautiful animals</p>
+		</div>
+
+		<div class="row flex">
+			<div class="col-lg-4 col-sm-6">
+				<div class="thumbnail">
+					<img src="https://images.unsplash.com/photo-1509102005664-5217121e0454?auto=format&fit=crop&w=1500&q=80">
+				</div>
+			</div>
+			<div class="col-lg-4 col-sm-6">
+				<div class="thumbnail">
+					<img src="https://images.unsplash.com/photo-1430876988766-1be68caef0e4?auto=format&fit=crop&w=1500&q=80">
+				</div>	
+			</div>
+			<div class="col-lg-4 col-sm-6">
+				<div class="thumbnail">
+					<img src="https://images.unsplash.com/photo-1488804297330-2b6016fe2f45?auto=format&fit=crop&w=1500&q=80">
+				</div>
+			</div>
+			<div class="col-lg-4 col-sm-6">
+				<div class="thumbnail">
+					<img src="https://images.unsplash.com/photo-1469569946320-b4f13e4b7d5e?auto=format&fit=crop&w=1500&q=80">
+				</div>
+			</div>
+			<div class="col-lg-4 col-sm-6">
+				<div class="thumbnail">
+					<img src="https://images.unsplash.com/photo-1513369720615-1516fdebbcec?auto=format&fit=crop&w=1500&q=80">
+				</div>	
+			</div>
+			<div class="col-lg-4 col-sm-6">
+				<div class="thumbnail">
+					<img src="https://images.unsplash.com/photo-1463436755683-3f805a9d1192?auto=format&fit=crop&w=1506&q=80">
+				</div>
+			</div>
+			<div class="col-lg-4 col-sm-6">
+				<div class="thumbnail">
+					<img src="https://images.unsplash.com/photo-1509907902456-5520a36c0fe8?auto=format&fit=crop&w=1500&q=80">
+				</div>
+			</div>
+			<div class="col-lg-4 col-sm-6">
+				<div class="thumbnail">
+					<img src="https://images.unsplash.com/photo-1496237059105-545363784386?auto=format&fit=crop&w=1500&q=80">
+				</div>	
+			</div>
+			<div class="col-lg-4 col-sm-6">
+				<div class="thumbnail">
+					<img src="https://images.unsplash.com/photo-1453805622064-de9796753c22?auto=format&fit=crop&w=1500&q=80">
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<script src="http://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script> <!-- Adding jquery to default navbar to work -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> <!-- adding JavaScript to navbar work -->
+</body>
+</html>
